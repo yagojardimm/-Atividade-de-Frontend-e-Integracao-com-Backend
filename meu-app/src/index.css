@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  /* Cores — usam oklch (o novo padrão) */
+  --color-brand:    oklch(62% 0.19 264);
+  --color-brand-50: oklch(97% 0.03 264);
+  --color-brand-900:oklch(25% 0.12 264);
+  --color-sucess: green;
+
+  /* Fontes */
+  --font-sans: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --font-display: "Popins", sans-serif;
+
+  /* Breakpoints customizados */
+  --breakpoint-xs: 428px;
+  --breakpoint-3xl: 1920px;
+
+  /* Sombra customizada */
+  --shadow-card: 0 2px 8px oklch(0% 0 0 / 8%);
+}
+
